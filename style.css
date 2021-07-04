@@ -2,20 +2,191 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+    /*------ CUSTOM MADE ------*/
+.custom-link {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    /* INSET FOR INNER SHADOW */
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                    7px 7px 20px 0px rgba(0,0,0,.1),
+                    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
 }
 
 /*------------------- HOME PAGE SECTION -------------------*/
 #header {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background-image: url("././assets/Background_Cover_Img/chillXXL.jpg");
-    background-size: 100%;
+    background-image: url("././assets/Background_Cover_Img/spacexxl.jpg");
+    background-size: contain;
     padding-top: 10%;
 }
+    /* NAVIGATION */
+#navigation {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+    /* LOOPING AROUND */
+.looping-around {
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    width: 30%;
+    border: 2px solid white;
+    background-color: rgb(212, 9, 111, 0.3);
+    color: white;
+    padding: 15px 20px;
+    animation: looping_around 36s ease-in-out infinite;
+    z-index: 2;
+    font-size: 24px;
+    letter-spacing: 1.2;
+}
+
+
+.looping-around {
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    left: 40%;
+}
+
+    /* BUTTON HOME */
+.btn-home {
+    background-color: #b621fe;
+    border: none;
+    z-index: 1;
+    
+}
+
+.btn-home::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 10px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+
+.btn-home:hover {
+    color: #fff;
+}
+
+.btn-home:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-home:active {
+    /* THE BUTTON WILL DROP DOWN AFTER PRESSING */
+    top: 2px;
+}
+
+    /* BUTTON RESUME */
+.btn-resume {
+  background: linear-gradient(0deg, rgb(212, 9, 111) 0%, rgb(251, 2, 23) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-resume span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-resume:before,
+.btn-resume:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgb(251, 2, 23, 1);
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-resume:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-resume:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-resume:hover{
+  color: rgb(251, 2, 23, 1);
+  background: rgb(251, 2, 23, 0.1);
+}
+.btn-resume:hover:before {
+  height: 100%;
+}
+.btn-resume:hover:after {
+  width: 100%;
+}
+.btn-resume span:before,
+.btn-resume span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgb(251, 2, 23, 1);
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-resume span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-resume span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-resume span:hover:before {
+  height: 100%;
+}
+.btn-resume span:hover:after {
+  width: 100%;
+}
+
+    /* BRIEF INTRODUCTION SECTION */
 .homepage-container {
-    width: 85%;
+    width: 70%;
+    font-family: sans-serif;
     min-height: 60vh;
     margin: 0 auto;
     display: flex;
@@ -25,10 +196,32 @@
     background-color: #343F4F;
 }
 
-.looping-text {
-    padding: 50px;
-    font-size: 44px;
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    position: relative;
+    left: -50%;
+    cursor: pointer;
+    transform: translateX(50%);
+}
 
+.rotating-pic {
+    position: relative;
+}
+
+.rotating-pic img {
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    top: -450px;
+    left: 150px;
+    animation: rotation 10s ease-in-out infinite forwards;
+}
+
+.profile-img:hover {
+    border-color: red;
 }
 
 .intro-text {
@@ -96,13 +289,21 @@
     border-left: #705E78;
 }
 
-.dynamic-intro li .typo-text:nth-child(3)::after {
-    border-left-color: #705E78;
+.dynamic-intro li .test2::after {
+    border-left-color: #705E78 !important;
 }
 
+/* .dynamic-intro li .typo-text:nth-child(3)::after {
+    border-left-color: #705E78;
+} */
+
 .dynamic-intro li:nth-child(4) {
-    color: #812F33;
-    border-left: #812F33;
+    color: #BB2020;
+    border-left: #BB2020;
+}
+
+.dynamic-intro li .test3::after {
+    border-left-color: #BB2020 !important;
 }
 
 /*------------------- HOME PAGE SECTION -------------------*/
@@ -118,4 +319,50 @@
     100% {
         top: -300px;
     }
+}
+
+@keyframes rotation {
+    0% {
+        transform: translateX(50%) rotateY(0deg);
+    }
+    50% {
+        transform: translateX(50%) rotateY(360deg);
+    }
+    100% {
+        transform: translateX(50%) rotateY(0deg);
+    }
+}
+
+@keyframes looping_around {
+    0% {
+        transform: translateX(-150%) translateY(150%);
+    }
+    20% {
+        transform: translateX(0%)  translateY(0%);
+    }
+    40% {
+        transform: translateX(150%) translateY(150%);
+    }
+    60% {
+        transform: translateX(0%) translateY(350%);
+    }
+    80% {
+        transform: translateX(-200%) translateY(150%);
+    }
+    100% {
+        transform: translateX(0%)  translateY(0%);
+    }
+    /* 20% {
+        transform: translateX(0%)  translateY(100%);
+    }
+    40% {
+        transform: translateX(100%)  translateY(150%);
+    }
+    60% {
+        transform: translateX(50%) translateY(100%);
+    }
+    80% {
+        transform: translateX(100%)  translateY(150%);
+    }
+     */
 }
