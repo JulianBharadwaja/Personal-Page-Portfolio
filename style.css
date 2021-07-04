@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------- HOME PAGE SECTION -------------------*/
+#header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("././assets/Background_Cover_Img/chillXXL.jpg");
+    background-size: 100%;
+    padding-top: 10%;
+}
+
+.homepage-container {
+    width: 85%;
+    min-height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #343F4F;
+}
+
+.looping-text {
+    padding: 50px;
+    font-size: 44px;
+
+}
+
+.intro-text {
+    display: inline-flex;
+}
+
+.intro-text .static-text {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.dynamic-intro li {
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: 44px;
+    font-weight: 500;
+    color: #FC6D6D;
+    position: relative;
+    top: 0;
+    animation: toping 6s steps(4) infinite;
+}
+
+.dynamic-intro {
+    height: 75px;
+    line-height: 75px;
+    overflow: hidden;
+}
+
+.dynamic-intro li .typo-text {
+    position: relative;
+}
+
+.dynamic-intro li .typo-text::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #343F4F;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 1.5s steps(15) infinite;
+}
+
+.dynamic-intro li:nth-child(1) {
+    color: #F3FEB0;
+    
+}
+
+.dynamic-intro li .typo-text:nth-child(1)::after {
+    border-left-color: #F3FEB0;
+}
+
+.dynamic-intro li:nth-child(2) {
+    color: #FEA443;
+    border-left: #FEA443;
+}
+
+.dynamic-intro li .test1::after {
+    border-left-color: #FEA443 !important;
+}
+
+.dynamic-intro li:nth-child(3) {
+    color: #705E78;
+    border-left: #705E78;
+}
+
+.dynamic-intro li .typo-text:nth-child(3)::after {
+    border-left-color: #705E78;
+}
+
+.dynamic-intro li:nth-child(4) {
+    color: #812F33;
+    border-left: #812F33;
+}
+
+/*------------------- HOME PAGE SECTION -------------------*/
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -30px 0 30px;
+    }
+}
+
+@keyframes toping {
+    100% {
+        top: -300px;
+    }
+}
