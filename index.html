@@ -11,20 +11,85 @@
     <!-- FONT LINKS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- LINK FOR CSS -->
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    
+    <!-- HIDDEN ABOUT ME PANEL -->
+    <div class="panel" id="slide">
+        <div class="navigation__content">
+                <div class="about_me">
+
+                    <div class="about_left"> 
+                        <img src='/assets/Profile_Pic/handsome2.jpg'/>
+                        <div class="text">
+                
+                            <h1  class="animate-text">Julian Bharadwaja</h1>
+                            <h2 class="animate-text">Web Developer & Designer</h2>
+                            <div class="animate-text info_container">
+                                <p class="animate-text font-color">Address:</p>
+                                <p class="animate-text">Thumaung Condo, Lay Daunt Kan Road, Thingunkyun, Yangon, Myanmar</p>
+                                <p class="animate-text font-color">E-mail:</p>
+                                <p class="animate-text">julianbharadwaja1234@gmail.com</p>
+                                <p class="animate-text font-color">Phone:</p>
+                                <p class="animate-text">+9599 710 530 009</p>
+                            </div>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-facebook about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-instagram about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-twitter about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-github about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-linkedin about-social-logo"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="about_right">
+                        <p class="about_heading">About Me</p>
+                        <p class="about_title">I'm A Web Developer & Designer.</p>
+                        <p class="about_msg">Hi! I am Julian Bharadwaja, a Web Developer/Designer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into Web Developer/Designer since 2019. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+                        <p class="about_msg">I am a proficient Web Developer and UI/UX designer with an influential personality who wants to pursue a competitive and technical career as a Web Developer. Feel free to take a look at my projects on portfolio page.</p>
+                        <div class="about_sign_block">
+                            <div class="left_sign">
+                                <p class="name_sign">Julian Bharadwaja</p>
+                                <p class="title_sign">Web Developer</p>
+                            </div>
+                            <div class="right_sign">
+                                <img src="https://julianbharadwaja.github.io/assets/images/sign.png" alt="" class="sign_img">
+                            </div>
+                        </div>
+                        <a class="about_btn download_btn">Download CV</a>
+                        <a class="about_btn hire_me">Hire Me</a>
+                    </div>
+
+                </div>
+
+                <a href="#home" class="about_resume_link">Back to Home</a>
+
+        </div>
+    </div>
+
     <!-- HOMEPAGE -->
-    <header id="header">
+    <header class="panel" id="home">
 
         <!-- NAVIGATION --> 
         
         <nav id="navigation">     
             <a href="#" class="custom-link btn-home"><span>Home</span></a>
-            <a href="#" class="custom-link btn-resume"><span>Resume</span></a>
+            <a href="#slide" class="custom-link btn-resume"><span>About</span></a>
             <a href="#" class="custom-link btn-resume"><span>Skills</span></a>
             <a href="#" class="custom-link btn-resume"><span>Portfolio</span></a>
             <a href="#" class="custom-link btn-resume"><span>Contact</span></a>
@@ -97,10 +162,5 @@
         </div>
   
     </header>
-
-
-    <main>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus non sint qui ab voluptatibus veritatis odit, recusandae praesentium, natus perspiciatis doloribus vel, explicabo amet eius sapiente ratione consectetur alias! Veniam!</p>
-    </main>
 </body>
 </html>
