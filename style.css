@@ -474,6 +474,7 @@ body{
     text-align: center;
     cursor: grab;
     box-shadow: 0px 2px 5px #ccc;
+    padding: 15px;
 }
 
 .overall_card:hover {
@@ -594,6 +595,149 @@ body{
     background-color: #d4fc79 !important;
     background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%) !important;
 }
+
+/* PORTFOLIO PROJECTS */
+
+.project_flow {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project_flow h1 {
+    font-size: 44px;
+    color: #2c55ad;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.project__des {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.project_link {
+    text-decoration: none;
+    color: black;
+}
+
+.project_card {
+    width: 350px;
+    max-width: 350px;
+    position: relative;
+}
+
+.project_link::before {
+    background: linear-gradient(
+      to top,
+      hsl(0 0% 0% / 0.79) 0%,
+      hsl(0 0% 0% / 0.787) 7.8%,
+      hsl(0 0% 0% / 0.779) 14.4%,
+      hsl(0 0% 0% / 0.765) 20.2%,
+      hsl(0 0% 0% / 0.744) 25.3%,
+      hsl(0 0% 0% / 0.717) 29.9%,
+      hsl(0 0% 0% / 0.683) 34.3%,
+      hsl(0 0% 0% / 0.641) 38.7%,
+      hsl(0 0% 0% / 0.592) 43.3%,
+      hsl(0 0% 0% / 0.534) 48.4%,
+      hsl(0 0% 0% / 0.468) 54.1%,
+      hsl(0 0% 0% / 0.393) 60.6%,
+      hsl(0 0% 0% / 0.31) 68.3%,
+      hsl(0 0% 0% / 0.216) 77.3%,
+      hsl(0 0% 0% / 0.113) 87.7%,
+      hsl(0 0% 0% / 0) 100%
+    );
+    transition: 300ms opacity linear;
+}
+
+.project_link::after {
+    background: linear-gradient(90deg,hsl(5 97% 63% / 0.7) 0,hsl(5 97% 63% / 0) 100%);
+    opacity: 0;
+    transition: 300ms opacity linear;
+}
+
+.project_link > * {
+    z-index: 1;
+}
+
+.project__img {
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+
+.project_link h2, .project_link p {
+  transform: translateY(2ex);
+}
+
+.project_link p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.project_link h2 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.03ch;
+    transition: 300ms transform ease;
+}
+
+.project_link p {
+  opacity: 0;
+  transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.project_link:focus {
+  outline: 0.5rem solid white;
+  outline-offset: -0.5rem;
+}
+
+.project_link:hover :is(h2, p),
+.project_link:focus :is(h2, p) {
+  transform: none;
+}
+
+.project_link:hover::after,
+.project_link:focus::after,
+.project_link:hover::before,
+.project_link:focus::before {
+  opacity: 0.7;
+}
+
+.project_link:hover p,
+.project_link:focus p {
+  opacity: 1;
+  transition-delay: 200ms;
+}
+
+.project_link:hover img,
+.project_link:focus img {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+.project_card_des {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.project_lang {
+    font-style: italic;
+    font-weight: 400;
+}
+
 
 /*------------------- HOME PAGE SECTION -------------------*/
 #home {
@@ -755,7 +899,7 @@ body{
     border-left: #FEA443;
 }
 
-.dynamic-intro li .test1::after {
+.dynamic-intro li .text1::after {
     border-left-color: #FEA443 !important;
 }
 
@@ -763,7 +907,7 @@ body{
     color: #f14668;
 }
 
-.dynamic-intro li .test2::after {
+.dynamic-intro li .text2::after {
     border-left-color: #f14668 !important;
 }
 
@@ -776,7 +920,7 @@ body{
     border-left: #BB2020;
 }
 
-.dynamic-intro li .test3::after {
+.dynamic-intro li .text3::after {
     border-left-color: #BB2020 !important;
 }
 
@@ -962,6 +1106,7 @@ body{
 }
 
 /* MEDIA VIEW PORT */
+
 
 @media screen and (max-width: 1370px) and (min-width: 992px) {
     .about_me {
