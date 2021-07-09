@@ -213,9 +213,9 @@
         padding: 4% 4%;
     }
 
-    .project-heading {
-        font-size: 18px !important;
-        letter-spacing: 1.5 !important;
+    .project-flow h1 {
+        font-size: 18px;
+        letter-spacing: 1.5px;
     }
 
     .project-des {
