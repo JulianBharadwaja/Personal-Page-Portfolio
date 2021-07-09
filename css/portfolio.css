@@ -1,0 +1,80 @@
+/* PORTFOLIO PROJECTS */
+
+.project_flow {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project_flow h1 {
+    font-size: 44px;
+    color: #2c55ad;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.project_panel {
+    margin-bottom: 50px;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.project__heading {
+    text-decoration: wavy 3px underline #FCC255;
+}
+
+.project__des {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777777;
+    margin-bottom: 20px;
+    
+}
+
+.project__heading span:hover, .project__des span:hover {
+    background-color: #FCC255;
+    transition: background-color 500ms ease;
+}
+
+.project_link {
+    text-decoration: none;
+    color: black;
+}
+
+.project_card {
+    width: 350px;
+    max-width: 350px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #ccc;
+    background-color: #f7f7f7;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project_card_des {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.project_lang {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.project_card:hover {
+    transform: scale(1.5, 1.5);
+    background-color: rgb(245, 218, 99);
+    transition: all 1s ease;
+}
+
+.project_card:active {
+    transform: translateY(50%) scale(1.5, 1.5);
+    transition: all 1s ease;
+}

@@ -1,0 +1,283 @@
+@media screen and (max-width: 600px) {
+    #home {
+        padding: 0;
+    }
+
+    .profile-img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .homepage-container {
+        padding: 15px;
+    }
+
+    .social-icons {
+        transform: scale(0.5, 0.5);
+        margin-right: 0;
+    }
+
+    .intro-text .static-text {
+        font-size: 18px;
+    }
+
+    .dynamic-intro li {
+        font-size: 19px;
+    }
+    
+    .dynamic-intro {
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+    }
+
+    #slide .about_resume_link, #slide_down .about_resume_link {
+        width: 100%;
+    }
+
+    @keyframes toping {
+        100% {
+            top: -150px;
+        }
+    }
+
+    .social-block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navigation {
+        transform: scale(0.6, 0.6);
+    }
+
+    #slide {
+        background-image: url('././assets/Background_Cover_Img/wavy\ red.png');
+        background-size: cover;
+    }
+
+    /* ABOUT ME */
+    .about_me {
+        /* display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; */
+        grid-template-columns: auto;
+    }
+
+    .about_left {
+        width: 240px;
+        height: 240px;
+    }
+
+    .about_left .text {
+        padding: 8px;
+    }
+
+    .about_left h1 {
+        transform: translateX(200px);
+        font-weight:300;
+        font-size: 16px;
+        margin:0;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .about_left h2 {
+        font-weight:600;
+        font-size: 12px;
+        font-style:italic;
+        color: #777777;
+        transform: translateX(200px);
+    }
+
+    .about_left .info_container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .about_left p {
+        font-size: 10px;
+        margin: 0;
+        line-height: 16px;
+    }
+
+    .about-social-logo {
+        transform: scale(0.5, 0.5);
+        margin: 0;
+    }
+
+    .about_heading {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        margin-top: 30px;
+    }
+
+    .about_title {
+        font-size: 24px;
+    }
+
+    .about_msg {
+        font-size: 8px;
+    }
+
+    .about_sign_block {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sign_img {
+        width: 90%;
+    }
+
+    .about_right a {
+        display: block;
+    }
+
+    .learning_heading {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    .learning_title {
+        font-size: 24px;
+    }
+
+    .learning_card_container {
+        grid-template-columns: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .learning_card {
+        width: 100%;
+    }
+
+    .learning_description {
+        padding: 10px;
+    }
+
+    .learning_place {
+        font-size: 14px;
+    }
+
+    .learning_address {
+        font-size: 10px;
+        font-style: italic;
+        color: #777777;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .learning_degree {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .overall_card_container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+    }
+
+    .overall_card {
+        width: 100%;
+        min-width: 200px;
+        padding: 10px;
+    }
+
+    .overall_des_title {
+        font-size: 16px;
+    }
+
+    .overall_des {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .skills_heading {
+        font-size: 16px;
+    }
+
+    .skills_li em {
+        font-size: 12px;
+        position: relative;
+        top: -30px;
+    }
+
+    /* PORTFOLIO */
+
+    #slide_down {
+        padding: 4% 4%;
+    }
+
+    .project__heading {
+        font-size: 18px !important;
+        letter-spacing: 1.5 !important;
+    }
+
+    .project__des {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .project_grid {
+        grid-template-columns: auto;
+    }
+
+    .project_card {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .project_card_des {
+        font-size: 16px;
+    }
+
+    .project_lang {
+        font-size: 10px;
+    }
+
+    /* CONTACT */
+    .contact__heading {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    #contact_me_container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .contact__input {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 12px;
+        letter-spacing: 1;
+    }
+
+    .contact__text {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 12px;
+        letter-spacing: 1;
+    }
+
+    .contact__btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    #contact__btn_space {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .contact_map_border {
+        height: 350px;
+    }
+
+
+}
