@@ -11,37 +11,314 @@
     <!-- FONT LINKS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- LINK FOR CSS -->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- LINK FOR CSS FILES -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/viewport_mobile.css">
+    <link rel="stylesheet" href="./css/viewport_larger.css">
 </head>
 <body>
+    
+    <!-- HIDDEN ABOUT ME PANEL -->
+
+    <div class="panel" id="slide">
+        <div class="navigation-content">
+                <div class="about-me">
+
+                    <div class="about-left"> 
+                        <img src='/assets/Profile_Pic/handsome2.jpg'/>
+                        <div class="text">
+                
+                            <h1  class="animate-text">Julian Bharadwaja</h1>
+                            <h2 class="animate-text">Web Developer & Designer</h2>
+                            <div class="animate-text info_container">
+                                <p class="animate-text font-color">Address:</p>
+                                <p class="animate-text">Thumaung Condo, Lay Daunt Kan Road, Thingunkyun, Yangon, Myanmar</p>
+                                <p class="animate-text font-color">E-mail:</p>
+                                <p class="animate-text">julianbharadwaja1234@gmail.com</p>
+                                <p class="animate-text font-color">Phone:</p>
+                                <p class="animate-text">+9599 710 530 009</p>
+                            </div>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-facebook about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-instagram about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-twitter about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-github about-social-logo"></i>
+                            </a>
+                            <a href="#" class="animate-text social-link">
+                                <i class="fab fa-linkedin about-social-logo"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="about-right">
+                        <p class="about-heading">About Me</p>
+                        <p class="about-title"><span>I'm A Web Developer & Designer.</span></p>
+                        <p class="about-msg"><span>Hi! I am Julian Bharadwaja, a Web Developer/Designer focused on crafting great web experiences.</span> <span>Designing and Coding have been my passion since the days I started working with computers but I found myself into Web Developer/Designer since 2019.</span> <span>I enjoy creating beautifully designed, intuitive and functional websites.</span></p>
+                        <p class="about-msg"><span>I am a proficient Web Developer and UI/UX designer with an influential personality who wants to pursue a competitive and technical career as a Web Developer.</span> <span>Feel free to take a look at my projects on portfolio page.</span></p>
+                        <div class="about-sign-block">
+                            <div class="left-sign">
+                                <p class="name-sign">Julian Bharadwaja</p>
+                                <p class="title-sign">Web Developer</p>
+                                <p class="title-sign">Hover photo to see details about me!</p>
+                            </div>
+                            <div class="right-sign">
+                                <img src="https://julianbharadwaja.github.io/assets/images/sign.png" alt="" class="sign_img">
+                            </div>
+                        </div>
+                        <a class="about-btn download-btn">Download CV</a>
+                        <a class="about-btn hire-me">Hire Me</a>
+                    </div>
+
+                </div>
+
+                <!-- EDUCATION CARDS -->
+
+                <div class="learning">
+                    <div class="learning-title-block">
+                        <p class="learning-heading">Learning</p>
+                        <p class="learning-title">My Education</p>
+                    </div>
+
+                    <div class="learning-card-container">
+                        <div class="learning-card">
+                            <img src="https://scholarship-positions.com/wp-content/uploads/2017/01/DAAD-Scholarships-for-Masters-at-Asian-Institute-of-Technology-in-Thailand-768x448.png?ezimgfmt=ng:webp/ngcb1" alt="" class="learning-img">
+                            <div class="learning-description">
+                                <p class="learning-place">Asian Institute of Technology</p>
+                                <p class="learning-address">Rangsit, Thailand</p>
+                                <p class="learning-degree">Bachelor of Science in Engineering</p>
+                            </div>
+                        </div>
+                        <div class="learning-card">
+                            <img src="https://pix10.agoda.net/geo/city/16599/1_16599_02.jpg?s=1920x822" alt="" class="learning-img">
+                            <div class="learning-description">
+                                <p class="learning-place">Page Myanmar</p>
+                                <p class="learning-address">Yangon, Myanmar</p>
+                                <p class="learning-degree">Certificate In Web Engineering</p>
+                            </div>
+                        </div>
+                        <div class="learning-card">
+                            <img src="https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/82493920_100333695047193_8555361445296996352_n.png?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=me8HzRV1NZUAX-Ut0I4&_nc_oc=AQmRTsSfr6O6m9bHsSt8kZvq4qvx83lwEq8S1ddmYTrQp4XY1nGzxqRGTA5ttpgVETY&_nc_ht=scontent-sin6-3.xx&oh=a2792eff83b115422ae8b23a226ef7b4&oe=60EB1A70" alt="" class="learning-img">
+                            <div class="learning-description">
+                                <p class="learning-place">High Ground</p>
+                                <p class="learning-address">E-learning</p>
+                                <p class="learning-degree">Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- OVERALL SKILLS CARD -->
+                <div class="overall-skills">
+                    <div class="learning-title-block">
+                        <p class="learning-heading">Take A Look</p>
+                        <p class="learning-title">My Skills</p>
+                    </div>
+
+                    <div class="overall-card-container">
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services01.png" alt="" class="overall-img">
+                            <p class="overall-des-title">Web Design</p>
+                            <p class="overall-des">HTML, CSS, JavaScript, Bootstrap, Materialize</p>
+                        </div>
+
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services02.png" alt="" class="overall-img">
+                            <p class="overall-des-title">Photoshop</p>
+                            <p class="overall-des">Adobe Photoshop 2020</p>
+                        </div>
+
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services03.png" alt="" class="overall-img">
+                            <p class="overall-des-title">LOGO & Banners</p>
+                            <p class="overall-des">Adobe Illustrator 2020.</p>
+                        </div>
+
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services05.png" alt="" class="overall-img">
+                            <p class="overall-des-title">Back-End Developer</p>
+                            <p class="overall-des">PHP, Python, JavaScript, MySQL</p>
+                        </div>
+
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services02.png" alt="" class="overall-img">
+                            <p class="overall-des-title">Frameworks</p>
+                            <p class="overall-des">React, Django, Odoo</p>
+                        </div>
+
+                        <div class="overall-card">
+                            <img src="https://julianbharadwaja.github.io/assets/images/services/port_services06.png" alt="" class="overall-img">
+                            <p class="overall-des-title">Video</p>
+                            <p class="overall-des">Adobe Premiere Pro 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILLS CARDS -->
+                <div class="skills">
+                    <p class="skills-heading">Programming Skills</p>
+                    <ul class="skills-container">
+                        <li class="skills-li"><span class="html"><em>HTML</em></span></li>
+                        <li class="skills-li"><span class="css"><em>CSS</em></span></li>
+                        <li class="skills-li"><span class="javascript"><em>JavaScript</em></span></li>
+                        <li class="skills-li"><span class="php"><em>PHP</em></span></li>
+                        <li class="skills-li"><span class="Python"><em>Python</em></span></li>
+                    </ul>
+
+                    <p class="skills-heading">Framework & Libraries</p>
+                    <ul class="skills-container">
+                        <li class="skills-li"><span class="html background-changer1"><em>Bootstrap</em></span></li>
+                        <li class="skills-li"><span class="html background-changer1"><em>Material UI</em></span></li>
+                        <li class="skills-li"><span class="django background-changer1"><em>Django</em></span></li>
+                        <li class="skills-li"><span class="odoo background-changer1"><em>Odoo</em></span></li>
+                        <li class="skills-li"><span class="react background-changer1"><em>React</em></span></li>
+                    </ul>
+
+                    <p class="skills-heading">Others</p>
+                    <ul class="skills-container">
+                        <li class="skills-li"><span class="html background-changer2"><em>Project</em></span></li>
+                        <li class="skills-li"><span class="html background-changer2"><em>Teamwork</em></span></li>
+                        <li class="skills-li"><span class="html background-changer2"><em>Coding</em></span></li>
+                        <li class="skills-li"><span class="creativity background-changer2"><em>Creativity</em></span></li>
+                    </ul>
+                </div>
+                <!-- LINK BACK TO HOME PAGE -->
+
+                <a href="#home" class="about-resume-link">Back to Home</a>
+
+        </div>
+    </div>
+
+    <!-- HIDDEN PORTFOLIO PANEL -->
+    <div class="panel" id="slide-down">
+        <article class="project-flow">
+            <h1 class="project-heading"><span>My Portfolio</span></h1>
+            <p class="project-des"><span>Hover over each card to see the project title and the colour treatment change.</span></p>
+            <p class="project-des"><span>Click over each card to see the files on GitHub.</span></p>
+            
+            <!-- PORTFOLIO PROJECT GITHUB CARDS -->
+
+            <div class="project-panel">
+                <div class="project-grid">
+
+                    <div class="project-card">
+                        <a href="https://github.com/JulianBharadwaja/Vegan-Store-Project" target="_blank" class="project-link">
+                            <img src="././assets/Projects/Vegan_Project.jpg" alt="" class="project-img">
+                            <h2 class="project-card-des">Vegan Project</h2>
+                            <p class="project-lang">HTML, CSS</p>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/JulianBharadwaja/Animated_GitHub_CheatSheet" target="_blank" class="project-link">
+                            <img src="././assets/Projects/animation.jpg" alt="" class="project-img">
+                            <h2 class="project-card-des">CSS Animation GitHub Project</h2>
+                            <p class="project-lang">HTML, CSS</p>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/JulianBharadwaja/Personal-Page-Portfolio" target="_blank" class="project-link">
+                            <img src="././assets/Projects/portfolio project.jpg" alt="" class="project-img">
+                            <h2 class="project-card-des">Personal Portfolio</h2>
+                            <p class="project-lang">HTML, CSS</p>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/JulianBharadwaja/Messager-Project" target="_blank" class="project-link">
+                            <img src="././assets/Projects/messenger_project.jpg" alt="" class="project-img">
+                            <h2 class="project-card-des">Messenger Clone</h2>
+                            <p class="project-lang">HTML, CSS</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#home" class="about-resume-link">Back to Home</a>
+          </article>
+    </div>
+
+    <!-- HIDDEN CONTACT PANEL -->
+    <div class="panel" id="fade">
+        <div class="contact-title-block">
+            <p class="contact-heading">Contact Me</p>
+        </div>
+        <div id="contact-me-container">
+
+            <!-- GOOGLE MAP -->
+            <div class="contact-map">
+                <iframe class="contact-map-border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.934207181626!2d96.1891170141799!3d16.829619723082573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19326097c4a0b%3A0x8bbfd298c81ccfc9!2sLay%20Daungkan%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1625727514244!5m2!1sen!2smm" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+
+                <div class="contact-input-wrapper">
+                    <input type="text" class="contact-input" placeholder="Name" required />
+                </div>
+
+                <div class="contact-input-wrapper">
+                    <input type="email" class="contact-input" placeholder="Email" required />
+                </div>
+
+                <div class="contact-input-wrapper">
+                    <textarea name="contact-msg" placeholder="Type Your Message Here~~~" id="" cols="30" rows="10" class="contact-text"></textarea>
+                </div>
+
+                <div class="contact-input-wrapper">
+                    <button class="contact-btn">Send</button>
+                </div>
+
+            </div>
+
+            <a href="#home" id="contact-btn-space" class="about-resume-link">Back to Home</a>
+            
+        </div>
+        
+        
+    </div>
+
     <!-- HOMEPAGE -->
-    <header id="header">
+    <header id="home" class="panel">
 
         <!-- NAVIGATION --> 
         
         <nav id="navigation">     
-            <a href="#" class="custom-link btn-home"><span>Home</span></a>
-            <a href="#" class="custom-link btn-resume"><span>Resume</span></a>
-            <a href="#" class="custom-link btn-resume"><span>Skills</span></a>
-            <a href="#" class="custom-link btn-resume"><span>Portfolio</span></a>
-            <a href="#" class="custom-link btn-resume"><span>Contact</span></a>
+            <a href="#" class="custom-link btn-home">Home</a>
+            <a href="#slide" class="custom-link btn-home">About</a>
+            <a href="#slide-down" class="custom-link btn-home">Portfolio</a>
+            <a href="#fade" class="custom-link btn-home">Contact</a>
         </nav>
 
         <!-- LOOPING AROUND TEXT -->
 
-        <div class="looping-around">
+        <!-- <div class="looping-around">
             <p class="looping-text">I design and develop experience 
                 that make people's life simple.</p>
-        </div>       
+        </div>        -->
 
         <!-- BRIEF INTRODUCTION -->
         <div class="homepage-container">
             
             <div class="profile">
-                <img class="profile-img" src="/assets/Profile_Pic/handsome2.jpg" alt="">
+                <img class="profile-img" src="././assets/Profile_Pic/handsome2.jpg" alt="">
             </div>
 
             <!-- <div class="rotating-pic">
@@ -53,9 +330,8 @@
                 <div class="static-text">I'm</div>
                 <ul class="dynamic-intro">
                     <li><span class="typo-text">Julian Bharadwaja.</span></li>
-                    <li><span class="typo-text test1">a Developer.</span></li>
-                    <li><span class="typo-text test2">a Designer.</span></li>
-                    <li><span class="typo-text test3">a Youtuber.</span></li>
+                    <li><span class="typo-text text1">a Developer.</span></li>
+                    <li><span class="typo-text text2">a Designer.</span></li>
                 </ul>
             </div>
 
@@ -97,10 +373,5 @@
         </div>
   
     </header>
-
-
-    <main>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus non sint qui ab voluptatibus veritatis odit, recusandae praesentium, natus perspiciatis doloribus vel, explicabo amet eius sapiente ratione consectetur alias! Veniam!</p>
-    </main>
 </body>
 </html>

@@ -1,0 +1,373 @@
+/* LARGER SCREEN PHONE & TABLET */
+@media screen and (min-width: 600px) and (max-width: 992px) { 
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .homepage-container {
+        padding: 15px;
+    }
+
+    .social-icons {
+        transform: scale(0.7, 0.7);
+        margin-right: 0;
+    }
+
+    .intro-text .static-text {
+        font-size: 22px;
+    }
+
+    .dynamic-intro li {
+        font-size: 22px;
+    }
+    
+    .dynamic-intro {
+        height: 53px;
+        line-height: 53px;
+        overflow: hidden;
+    }
+
+    #slide .about-resume-link, #slide-down .about-resume-link {
+        width: 100%;
+    }
+
+    @keyframes toping {
+        100% {
+            top: -159px;
+        }
+    }
+    .social-block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #navigation {
+        transform: scale(0.8, 0.8);
+    }
+
+    #slide {
+        background-image: url('././assets/Background_Cover_Img/wavy\ red.png');
+        background-size: cover;
+    }
+
+    /* ABOUT ME */
+    .about-me {
+        /* display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; */
+        grid-template-columns: auto;
+    }
+
+    .about-left {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-left .text {
+        padding: 8px;
+    }
+
+    .about-left h1 {
+        transform: translateX(200px);
+        font-weight:300;
+        font-size: 18px;
+        margin:0;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .about-left h2 {
+        font-weight:600;
+        font-size: 14px;
+        font-style:italic;
+        color: #777777;
+        transform: translateX(200px);
+    }
+
+    .about-left .info_container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about-left p {
+        font-size: 10px;
+        margin: 0;
+        line-height: 35px;
+    }
+
+    .about-social-logo {
+        transform: scale(0.7, 0.7);
+        margin: 0;
+    }
+
+    .about-heading {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        margin-top: 30px;
+    }
+
+    .about-title {
+        font-size: 28px;
+    }
+
+    .about-msg span {
+        font-size: 12px;
+    }
+
+    .about-btn {
+        padding: 12px 20px;
+        text-align: center;
+    }
+
+    .about-sign-block {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sign_img {
+        width: 60%;
+    }
+
+    .about-right a {
+        display: block;
+    }
+
+    .learning-heading {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .learning-title {
+        font-size: 28px;
+    }
+
+    .learning-card-container {
+        grid-template-columns: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .learning-card {
+        width: 100%;
+    }
+
+    .learning-description {
+        padding: 10px;
+    }
+
+    .learning-place {
+        font-size: 18px;
+    }
+
+    .learning-address {
+        font-size: 14px;
+        font-style: italic;
+        color: #777777;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .learning-degree {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .overall-card-container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+        margin: 0 auto;
+    }
+
+    .overall-card {
+        width: 100%;
+        min-width: 200px;
+        padding: 10px;
+    }
+
+    .overall-des-title {
+        font-size: 16px;
+    }
+
+    .overall-des {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .skills-heading {
+        font-size: 16px;
+    }
+
+    .skills-li em {
+        font-size: 12px;
+        position: relative;
+        top: -30px;
+    }
+
+    /* PORTFOLIO */
+
+    #slide-down {
+        padding: 4% 4%;
+    }
+
+    .project-flow h1 {
+        font-size: 22px;
+        letter-spacing: 1.7px;
+    }
+
+    .project-des {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .project-grid {
+        margin-top: 40px;
+        grid-template-columns: auto auto;
+    }
+
+    .project-card {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .project-card-des {
+        font-size: 18px;
+    }
+
+    .project-lang {
+        font-size: 13px;
+    }
+
+    /* CONTACT */
+    .contact-heading {
+        font-size: 22px;
+        letter-spacing: 1.5px;
+    }
+
+    #contact-me-container {
+        width: 90%;
+        grid-template-columns: auto;
+    }
+
+    .contact-input {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 14px;
+        letter-spacing: 1;
+    }
+
+    .contact-text {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 14px;
+        letter-spacing: 1;
+    }
+
+    .contact-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #contact-btn-space {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .contact-map-border {
+        height: 350px;
+    }
+}
+
+/* LAPTOP NORMAL */
+@media screen and (max-width: 1370px) and (min-width: 992px) {
+    #home {
+        padding: 16px;
+    }
+
+    .profile-img {
+        transform: scale(0.9, 0.9);
+    }
+
+    .homepage-container{
+        padding: 16px;
+    }
+
+    .about-me {
+        grid-template-columns: 3fr 7fr;
+        grid-gap: 20px;
+        overflow: auto;
+    }
+
+    .social-icons {
+        transform: scale(0.9, 0.9);
+    }
+
+    .project-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .learning-card-container {
+        margin: 0 auto;
+        grid-template-columns: auto auto;
+    }
+
+    .project-panel {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .contact-me-container {
+        grid-template-columns: 6fr 4fr;
+    }
+    
+    #contact-btn-space {
+        width: 50% !important;
+        font-size: 16px;
+    }
+    #slide-down {   
+        padding: 4% 4%;
+    }
+    .sign_img {
+        width: 50%;
+    }
+}
+
+/* LAPTOP LARGE AND OVER */
+@media screen and (min-width: 1370px) {
+    .about-me {
+        grid-template-columns: 3fr 7fr;
+        grid-gap: 20px;
+        overflow: auto;
+    }
+    .homepage-container {
+        padding: 0;
+    }
+    .profile-img {
+        transform: scale(2, 2);
+        margin-bottom: 20px;
+    }
+    .dynamic-intro {
+        margin-bottom: 30px;
+    }
+    #navigation {
+        transform: scale(1.1,1.1);
+    }
+    .social-icons {
+        transform: scale(1.2,1.2);
+        margin-right: 30px;
+    }
+    .learning-card-container {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .project-flow {
+        padding: 4% 4%;
+    }
+}

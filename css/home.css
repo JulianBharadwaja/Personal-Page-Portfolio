@@ -1,48 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-body{
-    font-family: 'Lato', sans-serif;
-}
-
-    /*------ CUSTOM MADE ------*/
-.custom-link {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 10px;
-    padding: 10px 25px;
-    font-weight: 600;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    /* INSET FOR INNER SHADOW */
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-                    7px 7px 20px 0px rgba(0,0,0,.1),
-                    4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    text-align: center;
-}
-
 /*------------------- HOME PAGE SECTION -------------------*/
-#header {
+#home {
     width: 100%;
     height: 100vh;
-    background-image: url("././assets/Background_Cover_Img/spacexxl.jpg");
-    background-size: cover;
-    background-color: rgb(44, 43, 43);
-    padding-top: 10%;
+    /* background-image: url("././assets/Background_Cover_Img/chillXXL.jpg");
+    background-size: contain; */
+    background: #f7eee2;  /* fallback for old browsers */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
     /* NAVIGATION */
 #navigation {
@@ -53,7 +19,7 @@ body{
     justify-content: center;
 }
 
-    /* LOOPING AROUND */
+    /* LOOPING AROUND not used */
 .looping-around {
     width: 30%;
     background-color: rgb(212, 9, 111, 0.2);
@@ -74,7 +40,7 @@ body{
 
     /* BUTTON HOME */
 .btn-home {
-    background-color: #b621fe;
+    background-color: #f14668;
     border: none;
     z-index: 1;
 }
@@ -87,12 +53,10 @@ body{
     top: 0;
     right: 0;
     z-index: -1;
-    background-color: #663dff;
+    background-color: #f02951;
     border-radius: 10px;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
-    transition: all 0.3s ease;
+    /* box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5); */
+    transition: all 0.3s ease-in;
 }
 
 .btn-home:hover {
@@ -109,80 +73,6 @@ body{
     top: 2px;
 }
 
-    /* BUTTON RESUME */
-.btn-resume {
-  background: linear-gradient(0deg, rgb(212, 9, 111) 0%, rgb(251, 2, 23) 100%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-.btn-resume span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.btn-resume:before,
-.btn-resume:after {
-  position: absolute;
-  content: "";
-  right: 0;
-  bottom: 0;
-  background: rgb(251, 2, 23, 1);
-  box-shadow:
-   -7px -7px 20px 0px rgba(255,255,255,.9),
-   -4px -4px 5px 0px rgba(255,255,255,.9),
-   7px 7px 20px 0px rgba(0,0,0,.2),
-   4px 4px 5px 0px rgba(0,0,0,.3);
-  transition: all 0.3s ease;
-}
-.btn-resume:before{
-   height: 0%;
-   width: 2px;
-}
-.btn-resume:after {
-  width: 0%;
-  height: 2px;
-}
-.btn-resume:hover{
-  color: rgb(251, 2, 23, 1);
-  background: rgb(251, 2, 23, 0.1);
-}
-.btn-resume:hover:before {
-  height: 100%;
-}
-.btn-resume:hover:after {
-  width: 100%;
-}
-.btn-resume span:before,
-.btn-resume span:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  background: rgb(251, 2, 23, 1);
-  box-shadow:
-   -7px -7px 20px 0px rgba(255,255,255,.9),
-   -4px -4px 5px 0px rgba(255,255,255,.9),
-   7px 7px 20px 0px rgba(0,0,0,.2),
-   4px 4px 5px 0px rgba(0,0,0,.3);
-  transition: all 0.3s ease;
-}
-.btn-resume span:before {
-  width: 2px;
-  height: 0%;
-}
-.btn-resume span:after {
-  height: 2px;
-  width: 0%;
-}
-.btn-resume span:hover:before {
-  height: 100%;
-}
-.btn-resume span:hover:after {
-  width: 100%;
-}
-
     /* BRIEF INTRODUCTION SECTION */
 .homepage-container {
     width: 70%;
@@ -195,7 +85,6 @@ body{
     align-items: center;
     background-color: #343F4F;
     z-index: 1;
-    opacity: 0.8;
 }
 
 .profile-img {
@@ -209,26 +98,13 @@ body{
     transform: translateX(50%);
 }
 
-.rotating-pic {
-    position: relative;
-    opacity: 1;
-}
-
-.rotating-pic img {
-    position: absolute;
-    width: 300px;
-    z-index: 1;
-    top: -450px;
-    left: 150px;
-    animation: rotation 10s ease-in-out infinite forwards;
-}
-
 .profile-img {
     animation: rotation 5s ease-in-out infinite forwards;
 }
 
 .intro-text {
     display: inline-flex;
+    align-items: baseline;
 }
 
 .intro-text .static-text {
@@ -245,7 +121,7 @@ body{
     color: #FC6D6D;
     position: relative;
     top: 0;
-    animation: toping 6s steps(4) infinite;
+    animation: toping 6s steps(3) infinite;
 }
 
 .dynamic-intro {
@@ -266,7 +142,7 @@ body{
     position: absolute;
     background-color: #343F4F;
     border-left: 2px solid #FC6D6D;
-    animation: typing 1.5s steps(15) infinite;
+    animation: typing 2s steps(17) infinite;
 }
 
 .dynamic-intro li:nth-child(1) {
@@ -283,17 +159,16 @@ body{
     border-left: #FEA443;
 }
 
-.dynamic-intro li .test1::after {
+.dynamic-intro li .text1::after {
     border-left-color: #FEA443 !important;
 }
 
 .dynamic-intro li:nth-child(3) {
-    color: #705E78;
-    border-left: #705E78;
+    color: #f14668;
 }
 
-.dynamic-intro li .test2::after {
-    border-left-color: #705E78 !important;
+.dynamic-intro li .text2::after {
+    border-left-color: #f14668 !important;
 }
 
 /* .dynamic-intro li .typo-text:nth-child(3)::after {
@@ -305,7 +180,7 @@ body{
     border-left: #BB2020;
 }
 
-.dynamic-intro li .test3::after {
+.dynamic-intro li .text3::after {
     border-left-color: #BB2020 !important;
 }
 
@@ -369,43 +244,4 @@ body{
     color: #00aced;
     text-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
-}
-
-/*------------------- HOME PAGE SECTION -------------------*/
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 -30px 0 30px;
-    }
-}
-
-@keyframes toping {
-    100% {
-        top: -300px;
-    }
-}
-
-@keyframes rotation {
-    0% {
-        transform: translateX(50%) rotateY(0deg);
-    }
-    50% {
-        transform: translateX(50%) rotateY(360deg);
-    }
-    100% {
-        transform: translateX(50%) rotateY(0deg);
-    }
-}
-
-@keyframes looping_around {
-    0% {
-        transform: translateX(-150%) translateY(150%);
-    }
-    50% {
-        transform: translateX(80%)  translateY(200%);
-    }
-    100% {
-        transform: translateX(0%)  translateY(0%);
-    }
 }

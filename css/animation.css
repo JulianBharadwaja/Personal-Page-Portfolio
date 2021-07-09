@@ -1,0 +1,118 @@
+/*------------------- HOME PAGE SECTION -------------------*/
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -30px 0 30px;
+    }
+}
+
+@keyframes toping {
+    100% {
+        top: -225px;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: translateX(50%) rotateY(0deg);
+    }
+    50% {
+        transform: translateX(50%) rotateY(360deg);
+    }
+    100% {
+        transform: translateX(50%) rotateY(0deg);
+    }
+}
+
+@keyframes looping_around {
+    0% {
+        transform: translateX(-150%) translateY(150%);
+    }
+    50% {
+        transform: translateX(80%)  translateY(200%);
+    }
+    100% {
+        transform: translateX(0%)  translateY(0%);
+    }
+}
+
+@keyframes html5 { 
+    0%  { 
+        width:0px;
+    } 
+    100%{ 
+        width:100%;
+    }  
+}
+@keyframes css3 {
+    0%  { 
+        width:0px;
+    } 
+    100%{ 
+        width:100%;
+    }  
+}
+@keyframes js {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:80%;
+    }
+}
+
+@keyframes php {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:90%;
+    }
+}
+
+@keyframes python {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:65%;
+    }
+}
+
+@keyframes django {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:80%;
+    }
+}
+
+@keyframes odoo {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:70%;
+    }
+}
+
+
+@keyframes react {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width:50%;
+    }
+}
+
+@keyframes creativity {
+    0%  { 
+        width:0px;
+    }
+    100%{ 
+        width: 85%;
+    }
+}
