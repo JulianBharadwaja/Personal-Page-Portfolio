@@ -28,7 +28,7 @@
         overflow: hidden;
     }
 
-    #slide .about_resume_link, #slide_down .about_resume_link {
+    #slide .about-resume-link, #slide-down .about-resume-link {
         width: 100%;
     }
 
@@ -54,7 +54,7 @@
     }
 
     /* ABOUT ME */
-    .about_me {
+    .about-me {
         /* display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -62,16 +62,16 @@
         grid-template-columns: auto;
     }
 
-    .about_left {
+    .about-left {
         width: 300px;
         height: 300px;
     }
 
-    .about_left .text {
+    .about-left .text {
         padding: 8px;
     }
 
-    .about_left h1 {
+    .about-left h1 {
         transform: translateX(200px);
         font-weight:300;
         font-size: 18px;
@@ -79,7 +79,7 @@
         text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     }
 
-    .about_left h2 {
+    .about-left h2 {
         font-weight:600;
         font-size: 14px;
         font-style:italic;
@@ -87,11 +87,11 @@
         transform: translateX(200px);
     }
 
-    .about_left .info_container {
+    .about-left .info_container {
         display: grid;
         grid-template-columns: auto auto;
     }
-    .about_left p {
+    .about-left p {
         font-size: 10px;
         margin: 0;
         line-height: 35px;
@@ -102,26 +102,26 @@
         margin: 0;
     }
 
-    .about_heading {
+    .about-heading {
         font-size: 18px;
         letter-spacing: 1.5px;
         margin-top: 30px;
     }
 
-    .about_title {
+    .about-title {
         font-size: 28px;
     }
 
-    .about_msg span {
+    .about-msg span {
         font-size: 12px;
     }
 
-    .about_btn {
+    .about-btn {
         padding: 12px 20px;
         text-align: center;
     }
 
-    .about_sign_block {
+    .about-sign-block {
         display: grid;
         grid-template-columns: auto;
         margin-top: 20px;
@@ -132,38 +132,38 @@
         width: 60%;
     }
 
-    .about_right a {
+    .about-right a {
         display: block;
     }
 
-    .learning_heading {
+    .learning-heading {
         font-size: 18px;
         letter-spacing: 1.5px;
     }
 
-    .learning_title {
+    .learning-title {
         font-size: 28px;
     }
 
-    .learning_card_container {
+    .learning-card-container {
         grid-template-columns: auto;
         margin: 0 auto;
         margin-top: 10px;
     }
 
-    .learning_card {
+    .learning-card {
         width: 100%;
     }
 
-    .learning_description {
+    .learning-description {
         padding: 10px;
     }
 
-    .learning_place {
+    .learning-place {
         font-size: 18px;
     }
 
-    .learning_address {
+    .learning-address {
         font-size: 14px;
         font-style: italic;
         color: #777777;
@@ -171,12 +171,12 @@
         margin-bottom: 5px;
     }
 
-    .learning_degree {
+    .learning-degree {
         font-size: 12px;
         font-weight: 600;
     }
 
-    .overall_card_container {
+    .overall-card-container {
         width: 95%;
         display: grid;
         grid-template-columns: auto auto;
@@ -184,26 +184,26 @@
         margin: 0 auto;
     }
 
-    .overall_card {
+    .overall-card {
         width: 100%;
         min-width: 200px;
         padding: 10px;
     }
 
-    .overall_des_title {
+    .overall-des-title {
         font-size: 16px;
     }
 
-    .overall_des {
+    .overall-des {
         padding: 5px;
         font-size: 10px;
     }
 
-    .skills_heading {
+    .skills-heading {
         font-size: 16px;
     }
 
-    .skills_li em {
+    .skills-li em {
         font-size: 12px;
         position: relative;
         top: -30px;
@@ -211,74 +211,74 @@
 
     /* PORTFOLIO */
 
-    #slide_down {
+    #slide-down {
         padding: 4% 4%;
     }
 
-    .project__heading {
+    .project-heading {
         font-size: 22px !important;
         letter-spacing: 1.7 !important;
     }
 
-    .project__des {
+    .project-des {
         font-size: 16px;
         line-height: 16px;
     }
 
-    .project_grid {
+    .project-grid {
         margin-top: 40px;
         grid-template-columns: auto auto;
     }
 
-    .project_card {
+    .project-card {
         width: 100%;
         padding: 7px;
     }
 
-    .project_card_des {
+    .project-card-des {
         font-size: 18px;
     }
 
-    .project_lang {
+    .project-lang {
         font-size: 13px;
     }
 
     /* CONTACT */
-    .contact__heading {
+    .contact-heading {
         font-size: 22px;
         letter-spacing: 1.5px;
     }
 
-    #contact_me_container {
+    #contact-me-container {
         width: 90%;
         grid-template-columns: auto;
     }
 
-    .contact__input {
+    .contact-input {
         width: 100%;
         padding: 8px 12px;
         font-size: 14px;
         letter-spacing: 1;
     }
 
-    .contact__text {
+    .contact-text {
         width: 100%;
         padding: 8px 12px;
         font-size: 14px;
         letter-spacing: 1;
     }
 
-    .contact__btn {
+    .contact-btn {
         font-size: 14px;
         padding: 8px 16px;
     }
 
-    #contact__btn_space {
+    #contact-btn-space {
         width: 100% !important;
         margin: 0 auto;
     }
 
-    .contact_map_border {
+    .contact-map-border {
         height: 350px;
     }
 }
@@ -297,7 +297,7 @@
         padding: 16px;
     }
 
-    .about_me {
+    .about-me {
         grid-template-columns: 3fr 7fr;
         grid-gap: 20px;
         overflow: auto;
@@ -307,30 +307,30 @@
         transform: scale(0.9, 0.9);
     }
 
-    .project_grid {
+    .project-grid {
         grid-template-columns: auto auto;
     }
 
-    .learning_card_container {
+    .learning-card-container {
         margin: 0 auto;
         grid-template-columns: auto auto;
     }
 
-    .project_panel {
+    .project-panel {
         width: 80%;
         margin: 0 auto;
         margin-bottom: 50px;
     }
 
-    .contact_me_container {
+    .contact-me-container {
         grid-template-columns: 6fr 4fr;
     }
     
-    #contact__btn_space {
+    #contact-btn-space {
         width: 50% !important;
         font-size: 16px;
     }
-    #slide_down {   
+    #slide-down {   
         padding: 4% 4%;
     }
     .sign_img {
@@ -340,7 +340,7 @@
 
 /* LAPTOP LARGE AND OVER */
 @media screen and (min-width: 1370px) {
-    .about_me {
+    .about-me {
         grid-template-columns: 3fr 7fr;
         grid-gap: 20px;
         overflow: auto;
@@ -362,12 +362,12 @@
         transform: scale(1.2,1.2);
         margin-right: 30px;
     }
-    .learning_card_container {
+    .learning-card-container {
         width: 80%;
         margin: 0 auto;
         margin-top: 30px;
     }
-    .project_flow {
+    .project-flow {
         padding: 4% 4%;
     }
 }

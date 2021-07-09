@@ -84,7 +84,7 @@ body{
     transform: translate3d( 0, 0, 0 ); 
 }
 
-.panel#slide_down {
+.panel#slide-down {
     background-color: #fff;
     background-image: url('././assets/Background_Cover_Img/wavy1.png');
     background-size: cover;
@@ -93,7 +93,7 @@ body{
     font-family: 'Alegreya', serif;
 }
 
-.panel#slide_down:target {
+.panel#slide-down:target {
     transform: translate3d( 0, 0, 0); 
 }
 

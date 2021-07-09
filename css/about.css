@@ -1,5 +1,5 @@
     /* ABOUT ME PANEL */
-    .about_resume_link {
+    .about-resume-link {
         text-decoration: none;
         display: inline-block;
         color: #f7f7f7;
@@ -18,17 +18,17 @@
     }
     
     
-    .about_resume_link:hover {
+    .about-resume-link:hover {
         background-color: #FFC54A; 
         color: white;
         transition: all 300ms cubic-bezier(0.190, 1.000, 0.560, 1.000);
     }
     
-    .about_resume_link:active {
+    .about-resume-link:active {
         transform: translateY(10%);
     }
     
-    .about_me {
+    .about-me {
         width: 80%;
         margin: 0 auto;
         display: grid;
@@ -40,7 +40,7 @@
     
     /* ABOUT LEFT SECTION */
     
-    .about_left {
+    .about-left {
         width:380px;
         height:380px;
         margin:10px;
@@ -56,7 +56,7 @@
         position: relative;
     }
     
-    .about_left img
+    .about-left img
     {
       height:100%;
       width:100%;
@@ -66,21 +66,21 @@
       z-index:0;
       transition: all 0.4s ease-out;
     }
-    .about_left .text
+    .about-left .text
     {
         /*  z-index:99; */
       position:absolute;
       padding:30px;
       height:calc(100% - 60px);
     }
-    .about_left h1
+    .about-leftv h1
     {
         transform: translateX(200px);
         font-weight:300;
         margin:0;
         text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     }
-    .about_left h2
+    .about-left h2
     {
         font-weight:600;
         font-size: 18px;
@@ -89,16 +89,16 @@
         transform: translateX(200px);
     }
     
-    .about_left .info_container {
+    .about-left .info_container {
         display: grid;
         grid-template-columns: 30% 70%;
     }
     
-    .about_left .font-color {
+    .about-left .font-color {
         color: #FCC255;
     }
     
-    .about_left p
+    .about-left p
     {
         font-weight: 600;
         margin:20px 0 0 0;
@@ -132,19 +132,19 @@
     }
     
     
-    .about_left:hover
+    .about-left:hover
     {
     /*   background-color:#99aeff; */
         box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
         transform:scale(1.05);
     }
     
-    .about_left:hover img
+    .about-left:hover img
     {
         opacity: 0.2;
     }
     
-    .about_left:hover .animate-text
+    .about-left:hover .animate-text
     {
         transform:translateX(0);
         opacity:1;
@@ -152,7 +152,7 @@
     
     /* ABOUT RIGHT SECTION */
     
-    .about_heading {
+    .about-heading {
         width: 160px;
         font-size: 22px;
         font-weight: 600;
@@ -160,14 +160,14 @@
         text-decoration: wavy 3px underline #fcc255;
     }
     
-    .about_title {
+    .about-title {
         font-size: 44px;
         color: #52B3D9;
         margin: 20px 0;
         font-weight: 500;
     }
     
-    .about_msg {
+    .about-msg {
         font-size: 15px;
         color: #777777;
         line-height: 1.5;
@@ -175,31 +175,31 @@
         font-weight: 400;
     }
     
-    .about_sign_block {
+    .about-sign-block {
         display: grid;
         grid-template-columns: 30% 70%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     
-    .left_sign {
+    .left-sign {
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: 18px;
     }
     
-    .name_sign {
+    .name-sign {
         color: #39A9BF;
         font-weight: 600;
     }
     
-    .title_sign {
+    .title-sign {
         font-weight: 500;
         color: #777777;
     }
     
-    .about_btn {
+    .about-btn {
         padding: 18px 26px;
         color: white;
         border: none;
@@ -211,43 +211,43 @@
         cursor: pointer;
     }
     
-    .about_msg span {
+    .about-msg span {
         background-color: #FCC255;
         color: #000;
         font-size: 16px;
         cursor: vertical-text;
     }
     
-    .about_heading span:hover {
+    .about-heading span:hover {
         background-color: rgb(212, 9, 111, 0.2);
         cursor: vertical-text;
     }
     
-    .about_title span:hover {
+    .about-title span:hover {
         background-color: rgb(212, 9, 111, 0.2);
         cursor: vertical-text;
     }
     
-    .about_msg span:hover {
+    .about-msg span:hover {
         background-color: rgb(212, 9, 111, 0.2);
         cursor: vertical-text;
     }
     
-    .download_btn {
+    .download-btn {
         background-color: #FCC255;
     }
     
-    .hire_me {
+    .hire-me {
         background-color: #FF517E;
     }
     
-    .download_btn:hover {
+    .download-btn:hover {
         background-color: #FF517E;
         transition: all 0.7s ease;
         box-shadow: 2px 2px 5px black;
     }
     
-    .hire_me:hover {
+    .hire-me:hover {
         background-color: #FCC255;
         transition: all 0.7s ease;
         box-shadow: 2px 2px 10px black;
@@ -261,7 +261,7 @@
         padding-bottom: 50px;
     }
     
-    .learning_title_block {
+    .learning-title-block {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -269,7 +269,7 @@
         text-align: center;
     }
     
-    .learning_heading {
+    .learning-heading {
         width: 160px;
         font-size: 22px;
         font-weight: 600;
@@ -278,7 +278,7 @@
     
     }
     
-    .learning_title {
+    .learning-title {
         color: #556d91;
         font-size: 44px;
         font-weight: 500;
@@ -286,7 +286,7 @@
     
     /* LEARNING CARD */
     
-    .learning_card_container {
+    .learning-card-container {
         width: 80%;
         display: grid;
         margin-top: 30px;
@@ -294,7 +294,7 @@
         grid-gap: 30px;
     }
     
-    .learning_card {
+    .learning-card {
         width: 300px;
         border: 1px solid #ccc;
         border-radius: 15px;
@@ -303,29 +303,29 @@
         cursor: pointer;
     }
     
-    .learning_card:hover {
+    .learning-card:hover {
         box-shadow: 2px 5px 10px black;
         transform: translateY(-5%);
         transition: all 500ms ease;
         background-color: #F3FEB0;
     }
     
-    .learning_img {
+    .learning-img {
         width: 100%;
         border-radius: 15px 15px 0px 0px;
     }
     
-    .learning_description {
+    .learning-description {
         padding: 16px;
     }
     
-    .learning_place {
+    .learning-place {
         font-size: 20px;
         font-weight: 500;
         margin: 5px 0;
     }
     
-    .learning_address {
+    .learning-address {
         font-size: 16px;
         font-style: italic;
         color: #777777;
@@ -333,12 +333,12 @@
         margin-bottom: 5px;
     }
     
-    .learning_degree {
+    .learning-degree {
         font-style: 16px;
         font-weight: 600;
     }
     /* OVERALL SKILLS */
-    .overall_skills {
+    .overall-skills {
         padding: 30px 0;
         width: 85%;
         margin: 0 auto;
@@ -347,12 +347,12 @@
         margin-bottom: 50px;
     }
     
-    .overall_card_container {
+    .overall-card-container {
         display: flex;
         flex-wrap: wrap;
     }
     
-    .overall_card {
+    .overall-card {
         width: 300px;
         border: 1px solid rgba(61, 61, 61, 0.3);
         border-radius: 5px;
@@ -365,18 +365,18 @@
         background-color: #f7f7f7;
     }
     
-    .overall_card:hover {
+    .overall-card:hover {
         box-shadow: 2px 5px 10px black;
         transform: translateY(-5%);
         transition: all 500ms ease;
         background-color: #f6fdc4;
     }
     
-    .overall_img {
+    .overall-img {
         padding: 20px;
     }
     
-    .overall_des_title {
+    .overall-des-title {
         color: #2c55ad;
         font-size: 30px;
         font-weight: 500;
@@ -384,7 +384,7 @@
         margin-bottom: 10px;
     }
     
-    .overall_des {
+    .overall-des {
         padding: 10px;
         color: #777;
     }
@@ -400,7 +400,7 @@
         margin-bottom: 50px;
     }
     
-    .skills_heading {
+    .skills-heading {
         width: 100%;
         font-size: 22px;
         font-weight: 600;
@@ -409,24 +409,24 @@
         text-align: center;
     }
     
-    .skills .skills_container {
+    .skills .skills-container {
         padding-top: 50px;
         list-style-type: none;
     }
     
-    .skills_container li {
+    .skills-container li {
         margin-bottom: 50px;
         background-color: #dedede;
         height: 6px;
     }
     
-    .skills_li em {
+    .skills-li em {
         font-size: 18px;
         position: relative;
         top: -30px;
     }
     
-    .skills_li span { 
+    .skills-li span { 
         height: inherit;
         background-color: #fcc255;
         background: linear-gradient(45deg, #fcc255 0%, #FF517E 100%);
@@ -474,12 +474,12 @@
         animation: creativity 3s ease-out;
     }
     
-    .background_changer1 {
+    .background-changer1 {
         background-color: #8BC6EC !important;
         background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%) !important;
     }
     
-    .background_changer2 {
+    .background-changer2 {
         background-color: #d4fc79 !important;
         background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%) !important;
     }
